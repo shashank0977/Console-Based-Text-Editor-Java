@@ -38,3 +38,5 @@ java src/ConsoleTextEditor
 
 \- OOP principles
 
+## Demo
+Working console editor with undo/redo using Stack - Memento pattern implemented.
