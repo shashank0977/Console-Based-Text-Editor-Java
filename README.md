@@ -29,6 +29,3 @@ java -cp src ConsoleTextEditor
 - Applying OOP principles in Java
 - Managing cursor positions and string modifications
 
-## Demo
-
-Add a terminal screenshot or GIF demonstrating the editor's insertion, deletion, cursor movement, undo, and redo functionality.
