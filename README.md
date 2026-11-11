@@ -1,42 +1,34 @@
-\# Console-Based Text Editor - Java
+# Console-Based Text Editor - Java
 
+A console-based text editor developed in Java, featuring cursor-based editing and stack-based undo/redo functionality.
 
+## Features
 
-A console-based text editor built using Java with Stack for undo/redo.
+- Insert and delete characters at the cursor position
+- Move the cursor left and right
+- Undo and redo editing operations using two stacks
+- Track cursor position during editing
 
+## Tech Stack
 
+- Java
+- Object-Oriented Programming (OOP)
+- Stack Data Structure
+- StringBuilder
 
-\## Features
+## How to Run
 
-\- Insert/Delete character at cursor position
-
-\- Move cursor left/right
-
-\- Undo/Redo using Stack (O(1) operation)
-
-\- Cursor position tracking
-
-
-
-\## Tech Stack
-
-\- Java, Stack Data Structure, OOP, StringBuilder
-
-
-
-\## How to run
-
+```bash
 javac src/ConsoleTextEditor.java
+java -cp src ConsoleTextEditor
+```
 
-java src/ConsoleTextEditor
+## What I Learned
 
-
-
-\## What I learned
-
-\- Stack for state management (Memento pattern)
-
-\- OOP principles
+- Using stacks to implement undo/redo functionality
+- Applying OOP principles in Java
+- Managing cursor positions and string modifications
 
 ## Demo
-Working console editor with undo/redo using Stack - Memento pattern implemented.
+
+Add a terminal screenshot or GIF demonstrating the editor's insertion, deletion, cursor movement, undo, and redo functionality.
